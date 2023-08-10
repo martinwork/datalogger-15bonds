@@ -4,7 +4,7 @@
     "dependencies": {
         "core": "*",
         "microphone": "*",
-        "cpptest": "github:martinwork/pxt-cpp#v0.0.6",
+        "cpptest": "github:martinwork/pxt-cpp#v0.0.7",
         "datalogger": "*",
         "radio": "*"
     },
