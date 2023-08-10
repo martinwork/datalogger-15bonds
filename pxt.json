@@ -1,0 +1,37 @@
+{
+    "name": "datalogger-15bonds",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "cpptest": "github:martinwork/pxt-cpp#v0.0.5",
+        "datalogger": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "codal-v0.2.56-beta",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/d2d935e869fe15d7682e8d2f2a9916c711bef9f4",
+        "target": "6.1.4",
+        "pxt": "9.1.6",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "MICROBIT_BLE_UTILITY_SERVICE": "1",
+            "MICROBIT_BLE_UTILITY_SERVICE_PAIRING": "1",
+            "MICROBIT_BLE_MAXIMUM_BONDS": "15"
+        }
+    }
+}
